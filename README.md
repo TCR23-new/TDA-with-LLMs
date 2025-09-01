@@ -4,7 +4,7 @@ An AI agent that performs topological data analysis (TDA) on neural spiking data
 
 ## Overview
 
-This project combines topological data analysis with conversational AI to analyze neural spiking data. The agent can load spiking data from pickle files and compute topological features using persistent homology.
+This project combines topological data analysis with conversational AI to analyze neural spiking data. The agent can load spiking data from pickle files and compute topological features using persistent homology. This is just a proof of concept.
 
 ## Features
 
