@@ -1,4 +1,4 @@
-# TDA Agent - Topological Data Analysis for Spiking Data
+# TDA Agent - Topological Data Analysis for Spiking Data using ReAct agents
 
 An AI agent that performs topological data analysis (TDA) on neural spiking data using LangChain and AWS Bedrock.
 
