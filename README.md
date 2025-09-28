@@ -1,10 +1,10 @@
-# TDA Agent - Topological Data Analysis for Spiking Data using ReAct agents
+# TDA Agent - Topological Data Analysis for Spiking Data
 
 An AI agent that performs topological data analysis (TDA) on neural spiking data using LangChain and AWS Bedrock.
 
 ## Overview
 
-This project combines topological data analysis with conversational AI to analyze neural spiking data. The agent can load spiking data from pickle files and compute topological features using persistent homology. This is just a proof of concept.
+This project combines topological data analysis with conversational AI to analyze neural spiking data. The agent can load spiking data from pickle files and compute topological features using persistent homology.
 
 ## Features
 
@@ -33,12 +33,18 @@ pip install langchain-aws langchain-core langchain numpy ripser
 
 2. Configure AWS credentials for Bedrock access
 
+## Project Files
+
+- **tda_agent_v2.py**: Updated version of the main TDA agent implementation
+- **LLM_Tools.py**: LLM-related tools and utilities
+- **PromptExamples.py**: Collection of example prompts for the agent
+
 ## Usage
 
 ### Basic Example
 
 ```python
-from tda_agent import agent_executor
+from tda_agent_v2 import agent_executor
 
 # Ask the agent to analyze your data
 question = """
